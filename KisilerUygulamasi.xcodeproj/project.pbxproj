@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC40EB0527D3C4CB00DAEFDF /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */; };
 		DC9CF95627CFCA3000DD3A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */; };
 		DC9CF95827CFCA3000DD3A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95727CFCA3000DD3A88 /* SceneDelegate.swift */; };
-		DC9CF95A27CFCA3000DD3A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95927CFCA3000DD3A88 /* ViewController.swift */; };
+		DC9CF95A27CFCA3000DD3A88 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95927CFCA3000DD3A88 /* AnasayfaVC.swift */; };
 		DC9CF95D27CFCA3000DD3A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9CF95B27CFCA3000DD3A88 /* Main.storyboard */; };
 		DC9CF95F27CFCA3100DD3A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9CF95E27CFCA3100DD3A88 /* Assets.xcassets */; };
 		DC9CF96227CFCA3100DD3A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9CF96027CFCA3100DD3A88 /* LaunchScreen.storyboard */; };
 		DC9CF96D27CFCA3100DD3A88 /* KisilerUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF96C27CFCA3100DD3A88 /* KisilerUygulamasiTests.swift */; };
 		DC9CF97827CFCA3100DD3A88 /* KisilerUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF97727CFCA3100DD3A88 /* KisilerUygulamasiUITests.swift */; };
+		DC9CF98627CFD09800DD3A88 /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */; };
+		DC9CF98827CFD0B600DD3A88 /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */; };
+		DC9CF98B27CFDBBF00DD3A88 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
 		DC9CF95227CFCA3000DD3A88 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9CF95727CFCA3000DD3A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC9CF95927CFCA3000DD3A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC9CF95927CFCA3000DD3A88 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		DC9CF95C27CFCA3000DD3A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC9CF95E27CFCA3100DD3A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9CF96127CFCA3100DD3A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		DC9CF97327CFCA3100DD3A88 /* KisilerUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9CF97727CFCA3100DD3A88 /* KisilerUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerUygulamasiUITests.swift; sourceTree = "<group>"; };
 		DC9CF97927CFCA3100DD3A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
+		DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
+		DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		DC9CF95427CFCA3000DD3A88 /* KisilerUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				DC9CF98927CFD0CA00DD3A88 /* View */,
 				DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */,
 				DC9CF95727CFCA3000DD3A88 /* SceneDelegate.swift */,
-				DC9CF95927CFCA3000DD3A88 /* ViewController.swift */,
-				DC9CF95B27CFCA3000DD3A88 /* Main.storyboard */,
+				DC9CF95927CFCA3000DD3A88 /* AnasayfaVC.swift */,
+				DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */,
+				DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */,
+				DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */,
+				DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */,
 				DC9CF95E27CFCA3100DD3A88 /* Assets.xcassets */,
 				DC9CF96027CFCA3100DD3A88 /* LaunchScreen.storyboard */,
 				DC9CF96327CFCA3100DD3A88 /* Info.plist */,
@@ -126,6 +138,14 @@
 				DC9CF97927CFCA3100DD3A88 /* Info.plist */,
 			);
 			path = KisilerUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+		DC9CF98927CFD0CA00DD3A88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CF95B27CFCA3000DD3A88 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9CF95A27CFCA3000DD3A88 /* ViewController.swift in Sources */,
+				DC9CF98827CFD0B600DD3A88 /* KisiDetayVC.swift in Sources */,
+				DC9CF95A27CFCA3000DD3A88 /* AnasayfaVC.swift in Sources */,
 				DC9CF95627CFCA3000DD3A88 /* AppDelegate.swift in Sources */,
+				DC40EB0527D3C4CB00DAEFDF /* TableViewHucre.swift in Sources */,
 				DC9CF95827CFCA3000DD3A88 /* SceneDelegate.swift in Sources */,
+				DC9CF98627CFD09800DD3A88 /* KisiKayitVC.swift in Sources */,
+				DC9CF98B27CFDBBF00DD3A88 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

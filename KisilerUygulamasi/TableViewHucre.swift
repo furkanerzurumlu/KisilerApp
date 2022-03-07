@@ -9,6 +9,7 @@ import UIKit
 
 class TableViewHucre: UITableViewCell {
 
+    @IBOutlet weak var kisiBilgiLable: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
