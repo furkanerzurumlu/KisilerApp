@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 protocol ViewToPresenterAnasayfaProtocol{
     var anasayfaInteractor : PresenterToInteractorAnasayfaProtocol? {get set}
@@ -34,3 +35,5 @@ protocol PresenterToViewAnasayfaProtocol{
 protocol PresenterToRouterAnasayfaProtocol{
     static func createModule(ref:AnasayfaVC)
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

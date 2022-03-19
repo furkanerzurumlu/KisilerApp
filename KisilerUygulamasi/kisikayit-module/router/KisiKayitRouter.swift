@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 class KisiKayitRouter : PresenterToRouterKisiKayitProtocol{
     static func createModule(ref: KisiKayitVC) {
@@ -13,3 +14,5 @@ class KisiKayitRouter : PresenterToRouterKisiKayitProtocol{
         ref.kisiKayitPresenterNesnesi?.kisiKayitInteractor = KisiKayitInteractor()
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

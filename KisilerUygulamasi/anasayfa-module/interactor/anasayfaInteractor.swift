@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 import CoreData
 
 class anasayfaInteractor : PresenterToInteractorAnasayfaProtocol{
@@ -31,3 +32,5 @@ class anasayfaInteractor : PresenterToInteractorAnasayfaProtocol{
         
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

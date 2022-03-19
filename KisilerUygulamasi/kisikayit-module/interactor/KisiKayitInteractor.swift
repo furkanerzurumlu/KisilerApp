@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 class KisiKayitInteractor : PresenterToInteractorKisiKayitProtocol{
     let context = appDelegate.persistentContainer.viewContext
@@ -17,3 +18,5 @@ class KisiKayitInteractor : PresenterToInteractorKisiKayitProtocol{
         appDelegate.saveContext()
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

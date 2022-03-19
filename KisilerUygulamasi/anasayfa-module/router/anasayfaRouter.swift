@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 class anasayfaRouter : PresenterToRouterAnasayfaProtocol{
     static func createModule(ref: AnasayfaVC) {
@@ -20,3 +21,5 @@ class anasayfaRouter : PresenterToRouterAnasayfaProtocol{
         
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 class KisiKayitPresenter : ViewToPresenterKisiKayitProtocol {
     var kisiKayitInteractor: PresenterToInteractorKisiKayitProtocol?
@@ -14,3 +15,5 @@ class KisiKayitPresenter : ViewToPresenterKisiKayitProtocol {
         kisiKayitInteractor?.kisiEkle(kisi_ad: kisi_ad, kisi_tel: kisi_tel)
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53

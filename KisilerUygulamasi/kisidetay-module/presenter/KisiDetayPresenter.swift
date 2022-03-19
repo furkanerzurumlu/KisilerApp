@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 
 class KisiDetayPresenter : ViewToPresenterKisiDetayProtocol{
     var kisiDetayInteractor: PresenterToInteractorKisiDetayProtocol?
@@ -14,3 +15,5 @@ class KisiDetayPresenter : ViewToPresenterKisiDetayProtocol{
         kisiDetayInteractor?.kisiGuncelle(kisi: kisi, kisi_ad: kisi_ad, kisi_tel: kisi_tel)
     }
 }
+=======
+>>>>>>> 6471cf46cbc75c55b69d8468cf3a2da28cfbbc53
