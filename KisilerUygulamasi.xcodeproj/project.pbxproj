@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0B0FA527DFA1EE00854988 /* kisiKayıtProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FA427DFA1EE00854988 /* kisiKayıtProtocols.swift */; };
+		DC0B0FA727DFA3C000854988 /* KisiKayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FA627DFA3C000854988 /* KisiKayitInteractor.swift */; };
+		DC0B0FA927DFA3DF00854988 /* KisiKayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FA827DFA3DF00854988 /* KisiKayitPresenter.swift */; };
+		DC0B0FAB27DFA3FA00854988 /* KisiKayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FAA27DFA3FA00854988 /* KisiKayitRouter.swift */; };
+		DC0B0FB327DFA96D00854988 /* KisiDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FB227DFA96D00854988 /* KisiDetayProtocols.swift */; };
+		DC0B0FB527DFA99000854988 /* KisiDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FB427DFA99000854988 /* KisiDetayInteractor.swift */; };
+		DC0B0FB727DFA9B300854988 /* KisiDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FB627DFA9B300854988 /* KisiDetayPresenter.swift */; };
+		DC0B0FB927DFA9C800854988 /* KisiDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FB827DFA9C800854988 /* KisiDetayRouter.swift */; };
+		DC0B0FC127DFB2E300854988 /* anasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FC027DFB2E300854988 /* anasayfaRouter.swift */; };
+		DC0B0FC427DFB33700854988 /* anasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FC327DFB33700854988 /* anasayfaPresenter.swift */; };
+		DC0B0FC627DFB35E00854988 /* anasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FC527DFB35E00854988 /* anasayfaProtocols.swift */; };
+		DC0B0FC827DFB37200854988 /* anasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B0FC727DFB37200854988 /* anasayfaInteractor.swift */; };
 		DC40EB0527D3C4CB00DAEFDF /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */; };
 		DC9CF95627CFCA3000DD3A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */; };
 		DC9CF95827CFCA3000DD3A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF95727CFCA3000DD3A88 /* SceneDelegate.swift */; };
@@ -19,6 +31,7 @@
 		DC9CF98627CFD09800DD3A88 /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */; };
 		DC9CF98827CFD0B600DD3A88 /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */; };
 		DC9CF98B27CFDBBF00DD3A88 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */; };
+		DCFA462627E2592E00AD171F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCFA462427E2592E00AD171F /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC0B0FA427DFA1EE00854988 /* kisiKayıtProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kisiKayıtProtocols.swift"; sourceTree = "<group>"; };
+		DC0B0FA627DFA3C000854988 /* KisiKayitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitInteractor.swift; sourceTree = "<group>"; };
+		DC0B0FA827DFA3DF00854988 /* KisiKayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitPresenter.swift; sourceTree = "<group>"; };
+		DC0B0FAA27DFA3FA00854988 /* KisiKayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitRouter.swift; sourceTree = "<group>"; };
+		DC0B0FB227DFA96D00854988 /* KisiDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayProtocols.swift; sourceTree = "<group>"; };
+		DC0B0FB427DFA99000854988 /* KisiDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayInteractor.swift; sourceTree = "<group>"; };
+		DC0B0FB627DFA9B300854988 /* KisiDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayPresenter.swift; sourceTree = "<group>"; };
+		DC0B0FB827DFA9C800854988 /* KisiDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayRouter.swift; sourceTree = "<group>"; };
+		DC0B0FC027DFB2E300854988 /* anasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaRouter.swift; sourceTree = "<group>"; };
+		DC0B0FC327DFB33700854988 /* anasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaPresenter.swift; sourceTree = "<group>"; };
+		DC0B0FC527DFB35E00854988 /* anasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaProtocols.swift; sourceTree = "<group>"; };
+		DC0B0FC727DFB37200854988 /* anasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaInteractor.swift; sourceTree = "<group>"; };
 		DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
 		DC9CF95227CFCA3000DD3A88 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +82,7 @@
 		DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
 		DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
 		DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		DCFA462527E2592E00AD171F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +110,179 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC0B0F9D27DFA07700854988 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DC0B0F9E27DFA16600854988 /* kisikayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FA327DFA1A000854988 /* view */,
+				DC0B0FA227DFA19A00854988 /* router */,
+				DC0B0FA127DFA18F00854988 /* presenter */,
+				DC0B0FA027DFA18500854988 /* interactor */,
+				DC0B0F9F27DFA17800854988 /* protocols */,
+			);
+			path = "kisikayit-module";
+			sourceTree = "<group>";
+		};
+		DC0B0F9F27DFA17800854988 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FA427DFA1EE00854988 /* kisiKayıtProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		DC0B0FA027DFA18500854988 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FA627DFA3C000854988 /* KisiKayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		DC0B0FA127DFA18F00854988 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FA827DFA3DF00854988 /* KisiKayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		DC0B0FA227DFA19A00854988 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FAA27DFA3FA00854988 /* KisiKayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		DC0B0FA327DFA1A000854988 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DC0B0FAC27DFA90900854988 /* kisidetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FB127DFA94900854988 /* view */,
+				DC0B0FB027DFA94200854988 /* router */,
+				DC0B0FAF27DFA93900854988 /* presenter */,
+				DC0B0FAE27DFA93100854988 /* interactor */,
+				DC0B0FAD27DFA92800854988 /* protocols */,
+			);
+			path = "kisidetay-module";
+			sourceTree = "<group>";
+		};
+		DC0B0FAD27DFA92800854988 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FB227DFA96D00854988 /* KisiDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		DC0B0FAE27DFA93100854988 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FB427DFA99000854988 /* KisiDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		DC0B0FAF27DFA93900854988 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FB627DFA9B300854988 /* KisiDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		DC0B0FB027DFA94200854988 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FB827DFA9C800854988 /* KisiDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		DC0B0FB127DFA94900854988 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DC0B0FBA27DFB23A00854988 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FC227DFB2EC00854988 /* tableview */,
+				DC0B0FBF27DFB2A800854988 /* view */,
+				DC0B0FBE27DFB2A000854988 /* router */,
+				DC0B0FBD27DFB25E00854988 /* presenter */,
+				DC0B0FBC27DFB24F00854988 /* interactor */,
+				DC0B0FBB27DFB24800854988 /* protocols */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		DC0B0FBB27DFB24800854988 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FC527DFB35E00854988 /* anasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		DC0B0FBC27DFB24F00854988 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FC727DFB37200854988 /* anasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		DC0B0FBD27DFB25E00854988 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FC327DFB33700854988 /* anasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		DC0B0FBE27DFB2A000854988 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B0FC027DFB2E300854988 /* anasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		DC0B0FBF27DFB2A800854988 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CF95927CFCA3000DD3A88 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DC0B0FC227DFB2EC00854988 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
 		DC9CF94927CFCA3000DD3A88 = {
 			isa = PBXGroup;
 			children = (
@@ -107,14 +306,14 @@
 		DC9CF95427CFCA3000DD3A88 /* KisilerUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
-				DC9CF98927CFD0CA00DD3A88 /* View */,
 				DC9CF95527CFCA3000DD3A88 /* AppDelegate.swift */,
+				DCFA462427E2592E00AD171F /* Model.xcdatamodeld */,
+				DC9CF95B27CFCA3000DD3A88 /* Main.storyboard */,
 				DC9CF95727CFCA3000DD3A88 /* SceneDelegate.swift */,
-				DC9CF95927CFCA3000DD3A88 /* AnasayfaVC.swift */,
-				DC9CF98527CFD09800DD3A88 /* KisiKayitVC.swift */,
-				DC40EB0427D3C4CB00DAEFDF /* TableViewHucre.swift */,
-				DC9CF98727CFD0B600DD3A88 /* KisiDetayVC.swift */,
-				DC9CF98A27CFDBBF00DD3A88 /* Kisiler.swift */,
+				DC0B0FBA27DFB23A00854988 /* anasayfa-module */,
+				DC0B0FAC27DFA90900854988 /* kisidetay-module */,
+				DC0B0F9E27DFA16600854988 /* kisikayit-module */,
+				DC0B0F9D27DFA07700854988 /* model */,
 				DC9CF95E27CFCA3100DD3A88 /* Assets.xcassets */,
 				DC9CF96027CFCA3100DD3A88 /* LaunchScreen.storyboard */,
 				DC9CF96327CFCA3100DD3A88 /* Info.plist */,
@@ -138,14 +337,6 @@
 				DC9CF97927CFCA3100DD3A88 /* Info.plist */,
 			);
 			path = KisilerUygulamasiUITests;
-			sourceTree = "<group>";
-		};
-		DC9CF98927CFD0CA00DD3A88 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				DC9CF95B27CFCA3000DD3A88 /* Main.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,13 +469,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0B0FAB27DFA3FA00854988 /* KisiKayitRouter.swift in Sources */,
 				DC9CF98827CFD0B600DD3A88 /* KisiDetayVC.swift in Sources */,
 				DC9CF95A27CFCA3000DD3A88 /* AnasayfaVC.swift in Sources */,
+				DC0B0FA527DFA1EE00854988 /* kisiKayıtProtocols.swift in Sources */,
+				DC0B0FC127DFB2E300854988 /* anasayfaRouter.swift in Sources */,
+				DC0B0FC627DFB35E00854988 /* anasayfaProtocols.swift in Sources */,
 				DC9CF95627CFCA3000DD3A88 /* AppDelegate.swift in Sources */,
+				DCFA462627E2592E00AD171F /* Model.xcdatamodeld in Sources */,
+				DC0B0FA727DFA3C000854988 /* KisiKayitInteractor.swift in Sources */,
 				DC40EB0527D3C4CB00DAEFDF /* TableViewHucre.swift in Sources */,
+				DC0B0FC427DFB33700854988 /* anasayfaPresenter.swift in Sources */,
+				DC0B0FB327DFA96D00854988 /* KisiDetayProtocols.swift in Sources */,
+				DC0B0FB527DFA99000854988 /* KisiDetayInteractor.swift in Sources */,
 				DC9CF95827CFCA3000DD3A88 /* SceneDelegate.swift in Sources */,
+				DC0B0FB727DFA9B300854988 /* KisiDetayPresenter.swift in Sources */,
 				DC9CF98627CFD09800DD3A88 /* KisiKayitVC.swift in Sources */,
+				DC0B0FB927DFA9C800854988 /* KisiDetayRouter.swift in Sources */,
 				DC9CF98B27CFDBBF00DD3A88 /* Kisiler.swift in Sources */,
+				DC0B0FA927DFA3DF00854988 /* KisiKayitPresenter.swift in Sources */,
+				DC0B0FC827DFB37200854988 /* anasayfaInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +821,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCFA462427E2592E00AD171F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCFA462527E2592E00AD171F /* Model.xcdatamodel */,
+			);
+			currentVersion = DCFA462527E2592E00AD171F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DC9CF94A27CFCA3000DD3A88 /* Project object */;
 }

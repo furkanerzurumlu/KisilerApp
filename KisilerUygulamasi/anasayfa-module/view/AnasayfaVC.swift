@@ -12,7 +12,9 @@ class AnasayfaVC: UIViewController{
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var kisilerTableView: UITableView!
     
-    var kisilerListe = [Kisiler]()
+    var kisilerListe = [KisilerModel]()
+    
+    var anasayfaPresenterNesnesi : ViewToPresenterAnasayfaProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,28 +22,32 @@ class AnasayfaVC: UIViewController{
         
         kisilerTableView.delegate = self
         kisilerTableView.dataSource = self
-        
-        let k1 = Kisiler(kisi_id: 1, kisi_ad: "Furkan", kisi_tel: "111111")
-        let k2 =  Kisiler(kisi_id: 12, kisi_ad: "Ahmet", kisi_tel: "1112111")
-        let k3 =  Kisiler(kisi_id: 13, kisi_ad: "Sezin", kisi_tel: "1113111")
-        
-        kisilerListe.append(k1)
-        kisilerListe.append(k2)
-        kisilerListe.append(k3)
+    
+        anasayfaRouter.createModule(ref: self)
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        anasayfaPresenterNesnesi?.kisileriYukle()
+    }
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetay" {
-            let kisi = sender as? Kisiler
+            let kisi = sender as? KisilerModel
             let gidilecekVC = segue.destination as! KisiDetayVC
             gidilecekVC.kisi = kisi
         }
     }
 }
 
+extension AnasayfaVC : PresenterToViewAnasayfaProtocol{
+    func vieweVeriGonder(kisilerListesi: Array<KisilerModel>) {
+        self.kisilerListe = kisilerListesi
+        self.kisilerTableView.reloadData()
+    }
+}
+
 extension AnasayfaVC : UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Arama Sonucu \(searchText)")
+        anasayfaPresenterNesnesi?.ara(aramaKelimesi: searchText)
     }
 
 }
@@ -74,7 +80,7 @@ extension AnasayfaVC : UITableViewDelegate, UITableViewDataSource{
             
             let evetAction = UIAlertAction(title: "Evet", style: .destructive){action in}
             alert.addAction(evetAction)
-            print("\(kisi.kisi_ad!) silindi")
+            self.anasayfaPresenterNesnesi?.sil(kisi: kisi)
         }
         return UISwipeActionsConfiguration(actions: [silAction])
     }
